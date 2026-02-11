@@ -1,0 +1,4 @@
+C:\Users\oguza\OneDrive\projects\xaml project\registrationform\obj\Debug\net9.0\RegistrationForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguza\OneDrive\projects\xaml project\registrationform\obj\Debug\net9.0\RegistrationForm.AssemblyInfoInputs.cache
+C:\Users\oguza\OneDrive\projects\xaml project\registrationform\obj\Debug\net9.0\RegistrationForm.AssemblyInfo.cs
+C:\Users\oguza\OneDrive\projects\xaml project\registrationform\obj\Debug\net9.0\RegistrationForm.csproj.CoreCompileInputs.cache
