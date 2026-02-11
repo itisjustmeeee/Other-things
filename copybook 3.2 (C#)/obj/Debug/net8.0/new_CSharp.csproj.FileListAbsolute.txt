@@ -1,0 +1,14 @@
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\new_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\new_CSharp.AssemblyInfoInputs.cache
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\new_CSharp.AssemblyInfo.cs
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\new_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\oguza\OneDrive\projects\new C#\bin\Debug\net8.0\new_CSharp.exe
+C:\Users\oguza\OneDrive\projects\new C#\bin\Debug\net8.0\new_CSharp.deps.json
+C:\Users\oguza\OneDrive\projects\new C#\bin\Debug\net8.0\new_CSharp.runtimeconfig.json
+C:\Users\oguza\OneDrive\projects\new C#\bin\Debug\net8.0\new_CSharp.dll
+C:\Users\oguza\OneDrive\projects\new C#\bin\Debug\net8.0\new_CSharp.pdb
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\new_CSharp.dll
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\refint\new_CSharp.dll
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\new_CSharp.pdb
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\new_CSharp.genruntimeconfig.cache
+C:\Users\oguza\OneDrive\projects\new C#\obj\Debug\net8.0\ref\new_CSharp.dll

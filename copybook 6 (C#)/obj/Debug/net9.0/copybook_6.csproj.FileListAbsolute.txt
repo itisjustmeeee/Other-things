@@ -1,0 +1,14 @@
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\copybook_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\copybook_6.AssemblyInfoInputs.cache
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\copybook_6.AssemblyInfo.cs
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\copybook_6.csproj.CoreCompileInputs.cache
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\bin\Debug\net9.0\copybook_6.exe
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\bin\Debug\net9.0\copybook_6.deps.json
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\bin\Debug\net9.0\copybook_6.runtimeconfig.json
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\bin\Debug\net9.0\copybook_6.dll
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\bin\Debug\net9.0\copybook_6.pdb
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\copybook_6.dll
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\refint\copybook_6.dll
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\copybook_6.pdb
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\copybook_6.genruntimeconfig.cache
+C:\Users\oguza\OneDrive\projects\copybook 6 (C#)\obj\Debug\net9.0\ref\copybook_6.dll

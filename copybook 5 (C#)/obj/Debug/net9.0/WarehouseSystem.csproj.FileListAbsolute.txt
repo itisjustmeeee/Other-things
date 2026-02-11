@@ -1,0 +1,14 @@
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\WarehouseSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\WarehouseSystem.AssemblyInfoInputs.cache
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\WarehouseSystem.AssemblyInfo.cs
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\WarehouseSystem.csproj.CoreCompileInputs.cache
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\bin\Debug\net9.0\WarehouseSystem.exe
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\bin\Debug\net9.0\WarehouseSystem.deps.json
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\bin\Debug\net9.0\WarehouseSystem.runtimeconfig.json
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\bin\Debug\net9.0\WarehouseSystem.dll
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\bin\Debug\net9.0\WarehouseSystem.pdb
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\WarehouseSystem.dll
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\refint\WarehouseSystem.dll
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\WarehouseSystem.pdb
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\WarehouseSystem.genruntimeconfig.cache
+C:\Users\oguza\OneDrive\projects\copybook 5 (C#)\obj\Debug\net9.0\ref\WarehouseSystem.dll

@@ -1,0 +1,14 @@
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\bin\Debug\net9.0\RestaurantSystem.exe
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\bin\Debug\net9.0\RestaurantSystem.deps.json
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\bin\Debug\net9.0\RestaurantSystem.runtimeconfig.json
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\bin\Debug\net9.0\RestaurantSystem.dll
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\bin\Debug\net9.0\RestaurantSystem.pdb
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\RestaurantSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\RestaurantSystem.AssemblyInfoInputs.cache
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\RestaurantSystem.AssemblyInfo.cs
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\RestaurantSystem.csproj.CoreCompileInputs.cache
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\RestaurantSystem.dll
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\refint\RestaurantSystem.dll
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\RestaurantSystem.pdb
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\RestaurantSystem.genruntimeconfig.cache
+C:\Users\oguza\OneDrive\projects\copybook 4 (C#)\obj\Debug\net9.0\ref\RestaurantSystem.dll
