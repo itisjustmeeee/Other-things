@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Контакты</title>
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <h1 class = "header__title">Хэдер для моего Портфолио</h1>
+        </header>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="../index.html">Главная</a></li>
+                <li class="nav__item"><a class="nav__link" href="news.html">Новости</a></li>
+                <li class="nav__item"><a class="nav__link" href="goods.html">Товары</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__link" href="contacts.html">Контакты</a></li>
+                <li class="nav__item"><a class="nav__link" href="practics.html">Практики</a></li>
+            </ul>
+        </nav>
+        <main class="contacts">
+            <h1 class="contacts__title">А вот наши контакты</h1>
+            <section class = "contacts__list">
+                <div class="contacts-card">
+                    <h2 class="contacts-card__name">вот наша 100% настоящая почта:</h2>
+                    <p class="contacts-card__text">lolkek@gmail.com</p>
+                </div>
+                <div class="contacts-card">
+                    <h2 class="contacts-card__name">адрес:</h2>
+                    <p class="contacts-card__text">г. Набережные Челны, ул. Трех переулков, д. 7, стр. 8</p>
+                </div>
+                <div class = "contacts-card">
+                    <h2 class="contacts-card__name">Телефон для частных лиц:</h2>
+                    <p class="contacts-card__text">+7-(960)-888-50-44</p>
+                </div>
+                <div class="contacts-card">
+                    <h2 class="contacts-card__name">Телефон для других компаний:</h2>
+                    <p class="contacts-card__text">+7-(888)-555-55-55</p>
+                </div>
+                <button class="c-button" onclick="document.getElementById('contactModal').showModal()">Написать мне</button>
+                <dialog id="contactModal">
+                    <div class="modal-header"> 
+                        <h2>Формя для связи.</h2>
+                        <h2>Просьба: заполните все поля ниже!</h2> 
+                    </div> 
+                    <div class="modal-content"> 
+                        <form id="feedbackForm" method="dialog"> 
+                            <div class="form-group"> 
+                                <label for="name">Имя (ник) <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required placeholder="Введите имя или ник">
+                            </div>
+                            <div class="form-group"> 
+                                <label for="phone">Телефон <span class="required">*</span></label> 
+                                <input type="tel" id="phone" name="phone" required placeholder="+7 (XXX) XXX-XX-XX">
+                            </div> 
+                            <div class="form-group"> 
+                                <label for="email">Электронная почта <span class="required">*</span></label> 
+                                <input type="email" id="email" name="email" required placeholder="example@mail.ru"> 
+                            </div> 
+                            <div class="form-group"> 
+                                <label for="category">Категория обращения <span class="required">*</span></label> 
+                                <select id="category" name="category" required> 
+                                    <option value="">Выберите вид обращения</option> 
+                                    <option value="technical">Поддержать нас</option> 
+                                    <option value="commercial">Предложение по товарам</option> 
+                                    <option value="cooperation">Вопросы по практикам</option> 
+                                    <option value="complaint">Просто поговорить</option> 
+                                </select> 
+                            </div> 
+                            <div class="form-group"> 
+                                <label for="message">Поле для раскрытия темы обращения<span class="required">*</span></label> 
+                                <textarea id="message" name="message" required placeholder="Напишите здесь что-нибудь"></textarea> 
+                            </div>
+                            <div class="modal-actions"> 
+                                <button type="submit" class="btn btn-secondary" onclick="contactModal.close(); return false;">Отмена</button>
+                                <button type="submit" class="btn btn-primary" onclick="submitForm(); return false;">Отправить</button> 
+                            </div>
+                        </form> 
+                    </div> 
+                </dialog>
+                <dialog id = "successDialog">
+                    <p id = "successMessage"></p>
+                    <button onclick="closeSuccessDialog()" class="closeBtn">Закрыть</button>
+                </dialog>
+                <button class="theme-toggle" onclick="toggleTheme()">Тема</button>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__text">&copy; 2025 Сайт для семестровой работыю Все права защищены</p>
+        </footer>
+    </div>
+    <script> 
+        const contactModal = document.getElementById('contactModal');
+        function submitForm() { 
+            const form = document.getElementById('feedbackForm'); 
+            const formData = new FormData(form);
+
+            if (!form.checkValidity()) { 
+                form.reportValidity(); 
+                return; 
+            }
+            const data = { 
+                name: formData.get('name'), 
+                phone: formData.get('phone'), 
+                email: formData.get('email'), 
+                category: formData.get('category'), 
+                message: formData.get('message') 
+            }; 
+
+            console.log('Данные формы:', data);
+
+            const successDialog = document.getElementById("successDialog");
+            const successMessage = document.getElementById("successMessage");
+            successMessage.textContent = "Спасибо. Мы свяжемся с вами в ближайшее время uwu.";
+            successDialog.showModal();
+
+            contactModal.close(); 
+            contactModal.returnValue = 'success';
+
+            form.reset(); 
+        }
+
+        function closeSuccessDialog() {
+            const successDialog = document.getElementById("successDialog");
+            successDialog.close();
+        }
+
+        contactModal.addEventListener('click', function(event) { 
+            if (event.target === this) { 
+                this.close();
+            }
+        });
+        document.getElementById('feedbackForm').addEventListener('keypress', function(event) { 
+            if (event.key === 'Enter' && event.target.type !== 'textarea') { 
+                event.preventDefault(); 
+            } 
+        });
+    </script>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
